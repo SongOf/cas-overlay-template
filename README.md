@@ -1,3 +1,29 @@
+实现功能
+============================
+①HTTPS配置
+============================
+②添加cas-server-support-rest-authentication
+===========================================
+
+cas-server-support-rest-authentication模块中配置cas.authn.rest.uri可以将用户验证转移到另一模块
+
+③添加cas-server-support-rest
+===========================================
+
+cas-server-support-rest模块提供APP接入获取ST的一系列接口
+
+④修复用户名中文乱码的bug
+===========================================
+
+重写cas-server-support-rest-authentication模块添加UTF-8编码
+
+注：WEB-INF下的lib目录保存在网盘，下载导入即可
+链接：https://pan.baidu.com/s/17kEHLQjX4hVf6H9_lUP8Hg 
+提取码：zm2n
+
+
+
+===========================================
 CAS Overlay Template
 ============================
 
